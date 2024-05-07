@@ -8,11 +8,11 @@
     <style>
       nav {
         background-color: #0c0d0e;
-        opacity: 0.9;
       }
       body {
         background-color: #0c0d0e;
       }
+
       @media (max-width: 991px) {
         .sidebar {
           background-color: rgba(37, 35, 35, 0.15);
@@ -22,12 +22,57 @@
     </style>
   </head>
   <body>
-    <div class="container-fluid">
+    <!-- Grid helper -->
+    <!-- <div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-1" style="background-color: red">1</div>
+          <div class="col-1" style="background-color: red">2</div>
+          <div class="col-1" style="background-color: red">3</div>
+          <div class="col-1" style="background-color: red">4</div>
+          <div class="col-1" style="background-color: red">5</div>
+          <div class="col-1" style="background-color: red">6</div>
+          <div class="col-1" style="background-color: red">7</div>
+          <div class="col-1" style="background-color: red">8</div>
+          <div class="col-1" style="background-color: red">9</div>
+          <div class="col-1" style="background-color: red">10</div>
+          <div class="col-1" style="background-color: red">11</div>
+          <div class="col-1" style="background-color: red">12</div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6" style="background-color: blue">6</div>
+          <div class="col-6" style="background-color: blue">6</div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-2" style="background-color: darkblue">2</div>
+          <div class="col" style="background-color: lightblue">sisa</div>
+          <div class="col-2" style="background-color: darkblue">2</div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2" style="background-color: darkgreen"></div>
+          <div class="col" style="background-color: lightgreen">content helper</div>
+          <div class="col-lg-2" style="background-color: darkgreen"></div>
+        </div>
+      </div>
+    </div> -->
+    <!-- grid helper end -->
+
+    <!-- navbar -->
+    <div class="container-fluid sticky-top">
       <div class="row">
-        <div class="col-lg-2" style="background-color: grey"></div>
-        <div class="col p-0">
-          <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-            <div class="container">
+        <div class="col-lg-2"></div>
+        <div class="col p-0 border border-white">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container p-0">
               <!-- logo -->
               <a class="navbar-brand fs-4" href="#">Rio Baskara</a>
               <!-- Toggle Button -->
@@ -62,65 +107,51 @@
             </div>
           </nav>
         </div>
-        <div class="col-lg-2" style="background-color: grey"></div>
+        <div class="col-lg-2"></div>
       </div>
     </div>
+    <!-- navbar end -->
 
-    <!-- Grid helper -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-1" style="background-color: red">1</div>
-        <div class="col-1" style="background-color: red">2</div>
-        <div class="col-1" style="background-color: red">3</div>
-        <div class="col-1" style="background-color: red">4</div>
-        <div class="col-1" style="background-color: red">5</div>
-        <div class="col-1" style="background-color: red">6</div>
-        <div class="col-1" style="background-color: red">7</div>
-        <div class="col-1" style="background-color: red">8</div>
-        <div class="col-1" style="background-color: red">9</div>
-        <div class="col-1" style="background-color: red">10</div>
-        <div class="col-1" style="background-color: red">11</div>
-        <div class="col-1" style="background-color: red">12</div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-6" style="background-color: blue">6</div>
-        <div class="col-6" style="background-color: blue">6</div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-2" style="background-color: darkblue">2</div>
-        <div class="col" style="background-color: lightblue">sisa</div>
-        <div class="col-2" style="background-color: darkblue">2</div>
-      </div>
-    </div>
-
-    <!-- *note: kalau ada kontennya bakal ilang -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-2" style="background-color: darkgreen"></div>
-        <div class="col" style="background-color: lightgreen">content helper</div>
-        <div class="col-lg-2" style="background-color: darkgreen"></div>
-      </div>
-    </div>
-
-    <!-- grid helper end -->
-
+    <!-- Profil -->
     <div class="container-fluid">
       <div class="row vh-100">
-        <div class="col-lg-2 d-none d-md-block" style="background-color: grey"></div>
-        <div class="col">
-          <h4>Rio Yudha Baskara</h4>
-          <h5>DevOps</h5>
+        <div class="col-lg-2 d-none d-md-block"></div>
+        <div class="col border border-white p-0">
+          <div>
+            <h4>Rio Yudha Baskara</h4>
+            <h5>DevOps</h5>
+          </div>
+          <div>
+            <img class="rounded-circle" height="500px" width="500px" alt="Foto Pribadi Rio" src="foto.png" />
+          </div>
         </div>
-        <div class="col-lg-2 d-none d-md-block" style="background-color: grey"></div>
+        <div class="col-lg-2 d-none d-md-block"></div>
       </div>
     </div>
 
+    <!-- profil end -->
+
+    <!-- Tentang Aku -->
+    <div class="container-fluid">
+      <div class="row vh-100">
+        <div class="col-lg-2 d-none d-md-block"></div>
+        <div class="col border border-white p-0">
+          <div class="border">
+            <h3>Tentang Aku</h3>
+          </div>
+          <div class="h-50 border" style="background-color: #121414">
+            <h1>Lorem Ipsum</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, quaerat aliquam. Unde, eligendi exercitationem! Facere corporis sapiente, dolore aliquid ut nulla atque, laboriosam id nesciunt consectetur reiciendis dolorum
+              illum cupiditate? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit earum sapiente nam ab! Rem esse, itaque quis molestias libero aliquam incidunt quas facilis tenetur alias accusamus. Repudiandae itaque cumque
+              iusto.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-2 d-none d-md-block"></div>
+      </div>
+    </div>
+    <!-- Tentang Aku end -->
     <div class="vh-100" style="background-color: #374a4d"></div>
 
     <h1>
