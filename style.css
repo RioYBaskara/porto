@@ -1,0 +1,13 @@
+nav {
+  background-color: #0c0d0e;
+}
+body {
+  background-color: #0c0d0e;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgba(37, 35, 35, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
