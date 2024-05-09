@@ -25,6 +25,62 @@ body {
   opacity: 1;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#home .home-screen .home-detail .gambar {
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  #home .home-screen .home-detail .home-text {
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+
+#home .home-screen .home-detail h5 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 949px) {
+  #home .home-screen .home-detail h5 {
+    font-size: 1.2rem !important;
+  }
+}
+
+#home .home-screen .home-detail h2 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 949px) {
+  #home .home-screen .home-detail h2 {
+    font-size: 3rem !important;
+  }
+}
+
+#home .home-screen .home-detail span {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#home .home-screen .home-detail a {
+  color: #7e6301;
+}
+
+.about-title {
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.about-title h2 {
+  font-weight: 600;
+}
+
 @media (max-width: 991px) {
   .sidebar {
     background-color: rgba(37, 35, 35, 0.15);

@@ -56,11 +56,11 @@
     <div id="navbar" class="container-fluid sticky-top">
       <div class="row">
         <div class="col-lg-2"></div>
-        <div class="col p-0 border border-white">
+        <div class="col p-0">
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container p-0">
               <!-- logo -->
-              <a class="navbar-brand fs-4" href="#">Rio Baskara</a>
+              <a class="navbar-brand fs-4" href="#home">Rio Baskara</a>
               <!-- Toggle Button -->
               <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -74,12 +74,12 @@
                 </div>
                 <!-- Sidebar Body -->
                 <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <ul class="navbar-nav justify-content-end flex-grow-1">
                     <li class="nav-item mx-2">
-                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                      <a class="nav-link" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item mx-2">
-                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="#tentang">Tentang Aku</a>
                     </li>
                     <li class="nav-item mx-2">
                       <a class="nav-link" href="#">Experience and Skills</a>
@@ -101,35 +101,56 @@
     <!-- Home -->
     <section id="home">
       <div class="container-fluid">
+        <div class="home-screen row">
+          <div class="col-lg-2 d-none d-lg-block"></div>
+          <!-- Tengah -->
+          <div class="col p-0 d-flex">
+            <div class="container">
+              <div class="home-detail row d-flex align-items-center h-100">
+                <!-- Flexbox dan penyelarasan tengah -->
+                <div class="col-md-5 gambar">
+                  <img class="img-fluid" alt="Foto Pribadi Rio" src="fotobg.png" />
+                </div>
+                <div class="col-md-7 text-lg-start home-text">
+                  <h5>Hai! Namaku</h5>
+                  <h2>Rio Yudha Baskara</h2>
+                  <span>
+                    Junior
+                    <a>Web Developer</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tengah -->
+          <div class="col-lg-2 d-none d-lg-block"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Home end -->
+
+    <!-- Tentang Aku -->
+    <section id="tentang">
+      <div class="container-fluid">
         <div class="row vh-100">
           <div class="col-lg-2 d-none d-lg-block"></div>
           <!-- tengah -->
-          <div class="col border border-white p-0 d-flex align-items-center">
+          <div class="col p-0 py-3">
             <div class="container">
-              <!-- grid helper -->
-              <!-- <div class="row">
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-                <div class="col-1" style="background-color: red">1</div>
-              </div> -->
-              <!-- grid helper end -->
-              <div class="row align-items-center">
-                <div class="col-6 text-end">
-                  <h1>Rio Yudha Baskara</h4>
-                  <h4>DevOps</h5>
-                    <a href="#tentang" class="btn btn-lg ">Tentang Aku</a>
+              <div class="about-title row">
+                <div class="col p-0 text-center">
+                  <h2>Tentang Aku</h2>
                 </div>
-                <div class="col">
-                  <img class="img-fluid rounded-circle" alt="Foto Pribadi Rio" src="foto.png" />
+              </div>
+              <div class="about-row row d-flex align-items-center" style="background-color: #121414">
+                <div class="col p-0 text-center">
+                  <h2>Lorem Ipsum</h2>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, quaerat aliquam. Unde, eligendi exercitationem! Facere corporis sapiente, dolore aliquid ut nulla atque, laboriosam id nesciunt consectetur reiciendis
+                    dolorum illum cupiditate? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit earum sapiente nam ab! Rem esse, itaque quis molestias libero aliquam incidunt quas facilis tenetur alias accusamus. Repudiandae
+                    itaque cumque iusto.
+                  </p>
                 </div>
               </div>
             </div>
@@ -139,39 +160,8 @@
         </div>
       </div>
     </section>
-    <!-- Home end -->
-
-    <!-- Tentang Aku -->
-    <section id="tentang">
-    <div class="container-fluid">
-      <div class="row vh-100">
-        <div class="col-lg-2 d-none d-lg-block"></div>
-        <!-- tengah -->
-        <div class="col border border-white p-0 py-3 ">
-          <div class="container ">
-            <div class="row">
-              <div class="col p-0 text-center ">
-                <h1>Tentang Aku</h1>
-              </div>
-            </div>
-            <div class="row" style="background-color: #121414;">
-              <div class="col p-0 text-center">
-              <h2>Lorem Ipsum</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, quaerat aliquam. Unde, eligendi exercitationem! Facere corporis sapiente, dolore aliquid ut nulla atque, laboriosam id nesciunt consectetur reiciendis dolorum
-                illum cupiditate? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit earum sapiente nam ab! Rem esse, itaque quis molestias libero aliquam incidunt quas facilis tenetur alias accusamus. Repudiandae itaque cumque
-                iusto.
-              </p>
-            </div>
-            </div>
-          </div>
-        </div>
-        <!-- tengah -->
-        <div class="col-lg-2 d-none d-lg-block"></div>
-      </div>
-    </div>
-  </section>
     <!-- Tentang Aku end -->
+
     <div class="vh-100" style="background-color: #374a4d"></div>
 
     <h1>
