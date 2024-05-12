@@ -107,6 +107,11 @@ body {
 
 .about-title h2 {
   font-weight: 600;
+  font-size: 40px;
+}
+
+.about-title .text-center {
+  font-weight: 300;
 }
 
 #about {
