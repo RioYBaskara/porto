@@ -193,11 +193,16 @@ body {
   line-height: 40px;
 }
 
+.skills-title .heading-line {
+  color: #7e6301;
+  width: 80%;
+}
+
 .skills-card .card {
-  height: 300px;
   border-radius: 0 !important;
   border: none;
   background-color: #1c1e1f;
+  border: 1px solid #1c1e1f !important;
 }
 
 .skills-card .card:hover {
@@ -224,4 +229,13 @@ body {
 .skills-card .icon-wrapper i {
   font-size: 2rem;
   color: #0c0d0e !important;
+}
+
+.skills-card .card-title {
+  font-weight: 800;
+}
+
+.skills-card .list-group-item {
+  background-color: #1c1e1f !important;
+  color: white;
 }
