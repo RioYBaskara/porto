@@ -1,5 +1,5 @@
 html {
-  scroll-padding-top: 62px; /* height of sticky header */
+  scroll-margin-top: 62px;
 }
 
 body {
