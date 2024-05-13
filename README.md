@@ -1,5 +1,8 @@
 ## Portofolio Pribadi - README
 
+### Foto
+-![fotoporto](https://github.com/RioYBaskara/porto/assets/156874101/9025830d-38fb-41da-a216-d8f627269d84)
+
 ### Teknologi
 Portofolio ini dibangun dengan menggunakan teknologi berikut:
 - HTML
