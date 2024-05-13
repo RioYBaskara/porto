@@ -1,10 +1,15 @@
 html {
-  scroll-padding-top: 65px; /* height of sticky header */
+  scroll-padding-top: 62px; /* height of sticky header */
 }
 
 body {
   background-color: #0c0d0e;
   color: white;
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .row {
@@ -128,11 +133,6 @@ body {
   width: 60%;
 }
 
-#about {
-  padding-top: 10px;
-  padding-bottom: 50px;
-}
-
 .about-me {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -183,13 +183,9 @@ body {
 }
 
 /* Skills */
-#skills {
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
 
 .skills-title {
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -242,4 +238,37 @@ body {
 .skills-card .list-group-item {
   background-color: #1c1e1f !important;
   color: white;
+}
+
+/* Project */
+#project .project-title {
+  padding: 30px;
+}
+
+#project .project-title h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+#project .project-title .heading-line {
+  color: #7e6301;
+  width: 60%;
+}
+
+.project-card .card {
+  background-color: #1c1e1f;
+}
+
+.card-img-overlay {
+  background-color: rgba(128, 128, 128, 0.2);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.card-img-overlay:hover {
+  opacity: 0;
+}
+
+.card-img-overlay:hover + .card-img-container {
+  opacity: 1;
 }
